@@ -17,10 +17,10 @@ typedef struct {
 Studtype displayStudent (Studtype S);
 
 int main (){
-    Studtype stud [ ] = { {{"Ando","Jude", 'M'}, 11111, "BSCS", 1},
-                         {{"Auza","Marco", 'C'}, 22222, "BSCS", 1},
+    Studtype stud [ ] = { {{"Doe","John", 'M'}, 11111, "BSCS", 1},
+                         {{"Toilet","Skibidi", 'C'}, 22222, "BSCS", 1},
                          {{"Tibon","Hestia", 'L'}, 33333, "BSCS", 1},
-                         {{"Medina","Karl", 'E'}, 44444, "BSIT", 1},
+                         {{"Rizz","Nu", 'E'}, 44444, "BSIT", 1},
                        };
     
     int num = sizeof(stud)/sizeof(stud[0]);
