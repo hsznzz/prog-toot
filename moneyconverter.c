@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 // Create a program that converts an amount of money from one currency to another.
 // The program should ask the user to enter the amount of money, the original currency
 // (USD, EUR, or JPY), and the target currency (USD, EUR, or JPY). Use a switch statement
@@ -17,56 +14,61 @@
 
 
 /* ANSWER: if-else statement */
-// int main(){
-//     float money;
-//     char currency[5];
-//     char target[5];
-//     float newvalue;
+#include <stdio.h>
 
-//     printf("Enter the amount of money: ");
-//     scanf("%f", &money);
+int main(){
+    float money;
+    char currency[5];
+    char target[5];
+    float newvalue;
 
-//     printf("Enter the original currency (USD, EUR, JPY): ");
-//     scanf("%3s", currency);
+    printf("Enter the amount of money: ");
+    scanf("%f", &money);
+
+    printf("Enter the original currency (USD, EUR, JPY): ");
+    scanf("%3s", currency);
     
-//     printf("Enter the target currency exchange (USD, EUR, JPY): ");
-//     scanf("%3s", target);
+    printf("Enter the target currency exchange (USD, EUR, JPY): ");
+    scanf("%3s", target);
 
     
-//     if (strcmp(currency, "USD") == 0){
-//         if (strcmp(target, "EUR") == 0) {
-//             newvalue = money * 0.84;
-//             printf("%.2f USD is %.2f EUR", money, newvalue);
-//         } else if (strcmp(target, "JPY") == 0){
-//             newvalue = money * 109.81;
-//             printf("%.2f USD is %.2f JPY", money, newvalue);
-//         }
-//     }
+    if (strcmp(currency, "USD") == 0){
+        if (strcmp(target, "EUR") == 0) {
+            newvalue = money * 0.84;
+            printf("%.2f USD is %.2f EUR", money, newvalue);
+        } else if (strcmp(target, "JPY") == 0){
+            newvalue = money * 109.81;
+            printf("%.2f USD is %.2f JPY", money, newvalue);
+        }
+    }
     
-//     else if (strcmp(currency, "EUR") == 0) {
-//         if (strcmp (target, "USD") == 0) {
-//             newvalue = money * 1.19;
-//             printf("%.2f EUR is %.2f USD", money, newvalue);
-//         } else if (strcmp(target, "JPY") == 0){
-//             newvalue = money * 130.46;
-//             printf("%.2f EUR is %.2f JPY", money, newvalue);
-//         }
+    else if (strcmp(currency, "EUR") == 0) {
+        if (strcmp (target, "USD") == 0) {
+            newvalue = money * 1.19;
+            printf("%.2f EUR is %.2f USD", money, newvalue);
+        } else if (strcmp(target, "JPY") == 0){
+            newvalue = money * 130.46;
+            printf("%.2f EUR is %.2f JPY", money, newvalue);
+        }
         
-//     }
+    }
     
-//     else if (strcmp(currency, "JPY") == 0){
-//         if (strcmp(target, "USD") == 0){
-//             newvalue = money * 0.0091;
-//             printf("%.2f JPY is %.2f USD", money, newvalue);
-//         } else if (strcmp(target, "EUR") == 0){
-//             newvalue = money * 0.007;
-//             printf("%.2f JPY is %.2f EUR", money, newvalue);
-//         }
-//     }
+    else if (strcmp(currency, "JPY") == 0){
+        if (strcmp(target, "USD") == 0){
+            newvalue = money * 0.0091;
+            printf("%.2f JPY is %.2f USD", money, newvalue);
+        } else if (strcmp(target, "EUR") == 0){
+            newvalue = money * 0.007;
+            printf("%.2f JPY is %.2f EUR", money, newvalue);
+        }
+    }
     
-// }
+}
 
-/* ANSWER: switch case */
+/* ANSWER: switch case 
+#include <stdio.h>
+#include <string.h>
+
 int main(){
     float money;
     char currency[5];
@@ -123,3 +125,4 @@ int main(){
             }
     }
 }
+*/
