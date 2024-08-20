@@ -1,4 +1,5 @@
-// Write a program that includes a function, as specified in the minimum requirements, that takes two double precision floating-point arguments - taxedAmount and originalAmount. It calculates the effective tax rate using the provided data. For example, if the taxed amount is 100 and the original amount is 1000, the tax rate would be 10%. Finally, the function will return the result of the calculation in double data type. In the main function, ask for the taxedAmount and originalAmount inputs, then call the created function using the inputs, get the returned value, and print the said value.
+/* Write a program that includes a function, as specified in the minimum requirements, that takes two double precision floating-point arguments - taxedAmount and originalAmount. It calculates the effective tax rate using the provided data. For example, if the taxed amount is 100 and the original amount is 1000, the tax rate would be 10%. Finally, the function will return the result of the calculation in double data type. In the main function, ask for the taxedAmount and originalAmount inputs, then call the created function using the inputs, get the returned value, and print the said value.
+*/
 
 /*
     Expected Output 1:
