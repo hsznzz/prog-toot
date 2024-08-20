@@ -32,3 +32,27 @@ int swap (int *a, int *b, int *c){
     *c = temp;
 }
 
+/*#include <stdio.h>
+
+// CREATE A PROGRAM THAT IS GOING TO HAVE A FUNCTIONS THAT WILL ADD 2 NUMBERS AND 
+// RETURN NO VALUE PRINT OUT THE SUM INSIDE MAIN
+
+int add (int *x, int *y, int *z);
+
+int main (){
+    int x, y, z;
+    
+    printf("Enter x: ");
+    scanf("%d",&x);
+    printf("Enter y: ");
+    scanf("%d",&y);
+
+    add (&x, &y, &z);
+    
+    printf("\nSum: %d", z);
+}
+
+int add (int *x, int *y, int *z){
+    *z = *x + *y;
+}
+*/
